@@ -96,15 +96,3 @@ docker rm $(docker ps -a -q)
 ```bash
 docker login 
 ```
-
-```bash
-docker push entbappy/stapp:latest 
-```
-
-```bash
-docker rmi entbappy/stapp:latest
-```
-
-```bash
-docker pull entbappy/stapp
-```
